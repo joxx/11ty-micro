@@ -1,0 +1,16 @@
+{
+  "name": "11ty-micro",
+  "version": "1.0.0",
+  "description": "a super simple 11ty microsite",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

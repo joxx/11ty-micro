@@ -1,2 +1,5 @@
-## hello
-here starts an awesome website
+---
+layout: layout.liquid
+---
+# Hello world!
+This is my website.
