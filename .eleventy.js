@@ -1,8 +1,9 @@
 module.exports = function (eleventyConfig) {
-
-    // Copy `css/fonts/` to `_site/css/fonts`
+    // Copy `src/assets/css/` to `dist/assets/css`
     // Keeps the same directory structure.
-    eleventyConfig.addPassthroughCopy("src/assets/css");
+    eleventyConfig.addPassthroughCopy({
+        'src/assets/css/global.css': 'src/_includes/global.css'
+    });
 
     // 	--------------------- general config -----------------------
     return {

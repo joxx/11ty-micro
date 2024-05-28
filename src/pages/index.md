@@ -1,6 +1,7 @@
 ---
 permalink: /index.html
-layout: base.njk
+title: 'A page title is an important thing'
+layout: 'base.njk'
 ---
 # Hello world!
 This is my website.
