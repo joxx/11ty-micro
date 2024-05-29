@@ -1,0 +1,13 @@
+/*
+  Global styles
+
+  Low-specificity, global styles that apply to the whole
+  project: https://cube.fyi/css.html
+*/
+body {
+    color: var(--color-dark);
+    background: var(--color-light);
+    font-size: var(--size-step-1);
+    font-family: var(--font-base), sans-serif;
+    line-height: 1.4;
+}

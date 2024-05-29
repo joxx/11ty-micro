@@ -1,0 +1,7 @@
+/* Global variables */
+:root {
+    --color-dark: #222222;
+    --color-light: #fafafa;
+    --size-step-1: 1rem;
+    --font-base: Inter;
+}
