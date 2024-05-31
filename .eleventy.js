@@ -4,6 +4,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/assets/css');
     eleventyConfig.addPassthroughCopy('./src/assets/fonts/*.woff2');
 
+    // 	--------------------- Custom Template Languages ---------------------
+    eleventyConfig.addPlugin(require('./config/template-languages/css-config.js'));
+
+    eleventyConfig.addPassthroughCopy({
+        'src/assets/css/global.css': 'src/_includes/global.css'
+    });
+
     // 	--------------------- general config -----------------------
     return {
         // Pre-process *.md, *.html and global data files files with: (default: `liquid`)
