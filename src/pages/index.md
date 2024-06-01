@@ -3,5 +3,5 @@ permalink: /index.html
 title: 'A page title is an important thing'
 layout: 'home.njk'
 ---
-# Hello world!
-This is my website.
+# → Hello Future
+This is my awesome website.
