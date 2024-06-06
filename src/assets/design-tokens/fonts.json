@@ -5,12 +5,12 @@
     {
       "name": "Display",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["IBM Plex Sans", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+      "value": ["Mona Sans", "Helvetica Neue", "Arial", "sans-serif"]
     },
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Inter", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+      "value": ["Inter", "Helvetica Neue", "Arial", "sans-serif"]
     },
     {
       "name": "Mono",
