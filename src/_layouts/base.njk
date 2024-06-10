@@ -3,14 +3,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="love creating fast accessible websites.">
-  <title>{{ title }}</title>
-  <!-- synchronous css / inline css  -->
-  <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="love creating fast accessible websites.">
+    <title>{{ title }}</title>
+    <!-- preloads -->
+    <link
+            rel="preload"
+            href="/assets/fonts/MonaSans.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+    />
+    <!-- synchronous css / inline css  -->
+    <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}"/>
 </head>
 <body>
-  <main id="main" class="flow">{{ content | safe }}</main>
+<main id="main" class="flow">{{ content | safe }}</main>
 </body>
 </html>
