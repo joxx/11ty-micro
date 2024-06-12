@@ -1,0 +1,26 @@
+.logo {
+    display: inline-block;
+    font-size: 1rem;
+    height: 2rem;
+    position: relative;
+    text-indent: -9999%;
+    width: 3.3rem;
+
+    &::before,
+    &::after {
+        background-color: #ff6c00;
+        border-radius: 100%;
+        content: ' ';
+        height: 2rem;
+        left: 0;
+        opacity: .8;
+        position: absolute;
+        width: 2rem;
+        mix-blend-mode: multiply;
+    }
+
+    &::after {
+        background-color: #222;
+        left: 1.3rem;
+    }
+}
