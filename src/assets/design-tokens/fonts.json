@@ -10,7 +10,7 @@
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Inter", "Helvetica Neue", "Arial", "sans-serif"]
+      "value": ["Mona Sans", "ui-sans-serif", "-apple-system", "BlinkMacSystemFont", "Helvetica", "Arial", "sans-serif"]
     },
     {
       "name": "Mono",
