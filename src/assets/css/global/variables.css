@@ -3,5 +3,5 @@
     --color-dark: #222222;
     --color-light: #fafafa;
     --size-step-1: 1rem;
-    --font-base: 'Mona Sans';
+    --font-base: 'Mona Sans', ui-sans-serif, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
