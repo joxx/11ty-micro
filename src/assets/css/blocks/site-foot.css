@@ -2,13 +2,15 @@
   padding: var(--space-s-m);
   background: var(--color-dark);
   color: var(--color-light);
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: var(--space-s-m);
+    margin: 0;
+    padding: 0;
+  }
 }
 
-.site-footer__inner {
-  display: flex;
-  gap: var(--space-xs-s);
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 
