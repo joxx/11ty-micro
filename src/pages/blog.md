@@ -1,6 +1,6 @@
 ---
-permalink: /blog.html
-title: 'Blog overview page'
-layout: 'home.njk'
+title: Blog
+description: 'All blog posts can be found here'
+layout: blog
+permalink: /blog/index.html
 ---
-# → Here comes a list of blog entries
