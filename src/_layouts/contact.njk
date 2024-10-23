@@ -1,0 +1,22 @@
+---
+layout: base
+---
+
+<article class="region">
+    <div class="wrapper flow prose">
+        {{ content | safe }}
+    </div>
+    <div class="wrapper flow prose">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="0fa7507e-d025-4e12-8e37-0260beee1cc3">
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+            <input type="text" name="name" required>
+            <input type="email" name="email" required>
+            <textarea name="message" required></textarea>
+            <button type="submit">Submit Form</button>
+
+        </form>
+    </div>
+</article>
