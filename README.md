@@ -1,2 +1,2 @@
 # 11ty-micro
-a super simple 11ty microsite 
+a extra simple 11ty microsite 
